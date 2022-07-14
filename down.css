@@ -1,0 +1,224 @@
+#down{
+    height:0%;
+    width:0%;
+    overflow:hidden;
+}
+
+#down:target{
+    background: rgba(0, 0,0,0.5) url("./Images/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100vw;
+    height: 80px;
+    z-index:6;
+    position: absolute;
+    top:678px;
+    position:fixed;
+    display: flex;
+ 
+}
+
+.down1{
+    width:20%;
+    display: flex;
+    
+}
+
+.down1 img{
+    
+    width: 60px;
+    margin:1%;
+    margin-left:15%;
+}
+
+.down1-h{
+ color: white;
+margin-top:5%;
+font-size:large;
+display: inline-block;
+}
+.ic
+{
+    margin-top:5%;
+}
+.auth
+{
+    color:white;
+    display: inline;
+}
+.fa-ban
+{
+    color: white;
+}
+
+.down2{
+    width:50%;
+   display: inline-block;
+}
+.ic-1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1%;
+}
+.range1
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.range
+{
+    margin-top:1.5%;
+    width:500px;
+    height:2px;
+    
+}
+.fa-shuffle,.fa-backward-step,.fa-circle-pause,.fa-forward-step,.fa-repeat
+{
+    color: white;
+    font-size:16px;
+}
+
+.fa-circle-pause{
+    font-size: xx-large;
+   animation: circle 2s infinite ;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.fa-circle-pause:hover
+{
+color:palevioletred;
+cursor: pointer;
+}
+.time{
+color: white;
+}
+
+.down5{
+    width:30%;
+   display: flex;
+   justify-content: center;
+   margin-top:1%;
+   overflow: hidden;
+}
+
+.comp
+{
+    background-size:cover;
+    height: 30px;
+}
+
+.range2
+{
+    height: 2px;
+    width: 80px;
+    margin-top:5%;
+}
+.fa-sliders,.fa-volume-high{
+    color:white;
+    margin-top:2%;
+}
+
+/* anging Responsivity */
+
+@media screen and (max-width:950px)  {
+    .range{
+        width:200px;
+    }
+    .down1-h{
+        font-size: 15px;
+    }
+    .fa-ban{
+        display: none;;
+    }
+    .ic{
+       
+        justify-content: center;
+        display: inline;
+       position: relative;
+       top:20px;
+    }
+    .range1{
+        margin-top:2%;
+    }
+}
+
+@media screen and (max-width:890px)  {
+   .fa-ban{
+    display: none;
+   }
+ .fa-shuffle,.fa-repeat{
+    display: none;
+ }
+  
+}
+
+@media screen and (max-width:750px)  {
+   .fa-sliders{
+    display:none;
+   }
+    
+}
+
+@media screen and (max-width:580px)  {
+    .down1 img{
+     
+        width:50px;
+        height:50px;
+       }
+       .down1{
+        margin-top:2%;
+       }
+    
+      .down1-h{
+        font-size: xx-small;
+      } 
+      .hear
+      {
+        display: none;
+      }
+      .fa-shuffle{
+       display: none;
+       
+      }
+      .fa-repeat{
+        display: none;
+      }
+      .range2{
+        display: none;;
+      }
+      .comp{
+        margin-top:5%;
+      }
+      .range2{
+        margin-top: 7%;;
+      }
+      .fa-volume-high{
+        margin-top:12%;
+      }
+      .ic-1{
+        margin-top:4%;
+      }
+      .comp{
+        height: 50px;
+        width: 50px;;
+      }
+      .fa-volume-high{
+        display: none;
+      }
+    
+}
+
+@media screen and (max-width:450px)  {
+   
+    
+}

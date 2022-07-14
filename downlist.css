@@ -1,0 +1,132 @@
+.list31{
+    margin-left:10%;
+   color: white;
+   position: absolute;
+   top:450px;
+   height:280px;
+   overflow: scroll;
+   width: 60%;
+}
+
+.list31::-webkit-scrollbar{
+    display: none;
+}
+
+.l1img1 img{
+    height:60px;
+    width: 60px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.l1img1,.l1img2,.l1img3,.l1img4,.l1img5,.l1img6,.l1img7,.l1img8,.l1img9,.l1img10{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(0,0,0,0.3);
+
+}
+
+.sen1{
+    display: flex;
+    width: 90%;
+}
+.sen2{
+    display: flex;
+}
+
+.fa-heart:hover{
+   color: red;
+
+}
+.l1img2 img{
+    height:60px;
+    width: 60px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.l1img3 img{
+    height:60px;
+    width: 60px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.l1img4 img{
+    height:60px;
+    width: 60px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.l1img5 img{
+    height:60px;
+    width: 60px;
+ 
+}
+.l1img6 img{
+    height:60px;
+    width: 60px;
+  
+}
+.l1img7 img{
+    height:60px;
+    width: 60px;
+  
+}
+.l1img8 img{
+    height:60px;
+    width: 60px;
+   
+}
+.l1img9 img{
+    height:60px;
+    width: 60px;
+   
+}
+.l1img10 img{
+    height:60px;
+    width: 60px;
+ 
+}
+
+.l1img1:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img2:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img3:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img4:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img5:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img6:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img7:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img8:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img9:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.l1img10:hover{
+    background-color:rgba(0,0,0,0.5);
+    cursor: pointer;
+}

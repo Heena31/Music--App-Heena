@@ -1,0 +1,105 @@
+.poster{
+height: 20px;
+width: 60vw;
+margin-left: 10%;
+display:flex;
+margin-top: 3%;;
+justify-content: center;
+
+}
+.poster img 
+{
+    height:350px;
+    width:350px;
+}
+
+.side-text{
+    color: white;
+    height: 290px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    overflow: scroll;
+    background: linear-gradient(#000000,#6e1f02,#1a0506);
+}
+
+.side-text::-webkit-scrollbar
+{
+    display: none;
+   
+}
+
+
+.intro{
+    font-size: 15px;
+    
+}
+
+.bt1,.bt2{
+    height:40px;
+    width:100px;
+    font-size: 15px;
+    z-index: 0;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    
+}
+
+.bt1:hover{
+    cursor: pointer;
+
+}
+
+.bt2:hover{
+    cursor: pointer;
+
+}
+
+.track
+{
+    font-size: 12px;
+}
+
+button::before{
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: -114px;
+        width: 68%;
+        height: 100%;
+        background: linear-gradient(90deg,transparent,#eb6b6b45,transparent);
+        transition: all 1s;
+        z-index: -1;
+      
+    }
+
+
+button:hover::before{
+transform: translateX(300px) skew(-20deg);
+}
+
+.bt1:hover,.bt2:hover{
+background-color: #ff006a;
+}
+
+@media screen and (max-width:950px)  {
+   .intro{
+    font-size:10px;
+   }
+   
+    
+}
+
+@media screen and (max-width:750px)  {
+   .side-text{
+    display: none;
+   }
+
+   .poster img{
+   justify-content: center;
+    width: 600px;
+    height: 380px;
+   }
+    
+     
+ }

@@ -1,0 +1,1553 @@
+ /* Theme 2 css***********************************************************************************************************/
+    
+    
+     .sc6-main-div{
+        width: 955px;
+        height: auto;
+        position: absolute;
+        top:1200px;
+        margin-left:3%;
+        display: flex;
+        
+     }
+    
+     .sc6-d1{
+        width: 310px;
+        height: 160px;
+        overflow: hidden;
+        margin: 1%;
+        text-align: center;
+        
+        
+     }
+    
+    
+     .sc6-d1 img{
+     width: 100%;
+     height: 100%;
+    transition: 0.5s all ease-in-out; 
+     }
+    
+     .sc6-d2{
+        width: 310px;
+        height: 160px;
+        overflow: hidden;
+        margin: 1%;
+        text-align: center;
+     }
+
+     .sc6-d2 img{
+        width: 310px;
+        height: 160px;
+        margin-left: 20px;
+        transition: 0.5s all ease-in-out; 
+     }
+    
+     .sc6-d3{
+        width: 310px;
+        height: 160px;
+        overflow: hidden;
+        text-align: center;
+        margin: 1%;
+        
+     }
+    
+     .sc6-d3 img{
+        width: 310px;
+        height: 160px;
+        margin-left: 3%;
+        transition: 0.5s all ease-in-out; 
+     }
+    
+    .sc6-d1 h1{
+        position: relative;
+        color: white;
+        top:-100px;
+        font-size: x-large;
+        font-family: 'Paytone One', sans-serif;
+        
+    }
+    
+    
+    
+    .sc6-d2 h1{
+        position: relative;
+        color: aliceblue;
+        top:-100px;
+        display: inline;
+        font-size: x-large;
+        font-family: 'Paytone One', sans-serif;
+    }
+    
+    .sc6-d3 h1{
+        position: relative;
+        color: aliceblue;
+        top:-100px;
+        font-size: x-large;
+        font-family: 'Paytone One', sans-serif;
+    }
+    
+    .sc6-d1:hover img{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .sc6-d2:hover img{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .sc6-d3:hover img{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    
+    
+    /* Responsive of theme 2 */
+    
+    @media screen and (max-width:1250px) {
+        .sc6-main-div{
+            width: 900px;
+        }
+        
+    }
+    
+    @media screen and (max-width:950px) {
+        .sc6-main-div{
+            width: 800px;
+            top:1200px;
+    
+        }
+        
+        .sc6-d1{
+            height: 150px;
+            width: 300px;
+        }
+    
+        .sc6-d2{
+            height: 150px;
+            width: 350px;
+            margin-left:.5%;
+        }
+        
+        .sc6-d2 h1{
+            text-align: center;
+            left:10%;
+        } 
+        
+        .sc6-d3{
+            height: 150px;
+            width: 300px;
+            margin-left:.5%;
+        }
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width:890px) {
+        .sc6-main-div{
+            width: 700px;
+            top:1000px;
+    
+        }
+        
+        .sc6-d1{
+            height: 150px;
+            width: 340px;
+        }
+    
+        .sc6-d2{
+            height: 150px;
+            width: 340px;
+            margin-left:.5%;
+        }
+        .sc6-d1 h1{
+            font-size:large;
+        } 
+        
+        .sc6-d2 h1{
+        font-size:large;
+        } 
+    
+        .sc6-d3 h1{
+            font-size:large;
+        } 
+        
+        .sc6-d3{
+            height: 150px;
+            width: 340px;
+            margin-left:.5%;
+        }
+    }
+    
+    
+    @media screen and (max-width:750px) {
+        .sc6-main-div{
+            width: 650px;
+            top:930px;
+    
+        }
+        
+        .sc6-d1{
+            height: 150px;
+            width: 200px;
+        }
+    
+        .sc6-d2{
+            height: 150px;
+            width: 300px;
+            margin-left:.5%;
+        }
+        .sc6-d1 h1{
+            font-size:large;
+        } 
+        
+        .sc6-d2 h1{
+            font-size:large;
+        } 
+    
+        .sc6-d3 h1{
+           
+            font-size:large;
+        } 
+        
+        .sc6-d3{
+            height: 150px;
+            width: 200px;
+            margin-left:.5%;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width:700px) {
+        .sc6-main-div{
+            width:auto;
+            top:920px;
+    
+        }
+        
+        .sc6-d1{
+            height: 150px;
+            width: 180px;
+        }
+    
+        .sc6-d2{
+            height: 150px;
+            width: 180px;
+            margin-left:-.1%;
+        }
+        .sc6-d1 h1{
+            font-size:large;
+        } 
+        
+        .sc6-d2 h1{
+            font-size:large;
+        } 
+    
+        .sc6-d3 h1{
+            font-size:large;
+        } 
+        
+        .sc6-d3{
+            height: 150px;
+            width: 180px;
+            margin-left:.5%;
+        }
+    }
+    
+    
+    @media screen and (max-width:580px) {
+        .sc6-main-div{
+           width: auto;
+            top:800px;
+    
+        }
+        .sc6-d1{
+            height: 100px;
+            width: 140px;
+          text-align: center;
+       
+            
+
+        }
+    
+        .sc6-d2{
+            height: 100px;
+            width: 150px;
+
+        }
+        .sc6-d1 h1{
+            font-size:large;
+            padding:30px;
+        } 
+        .sc6-d2 h1{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+    
+        }
+    
+        .sc6-d3 h1{
+            font-size:large;
+             
+            transform: translateY(-20px);
+        } 
+        
+        .sc6-d3{
+            height: 100px;
+            width: 140px;
+            margin-left:.5%;
+        }
+    
+    }
+    
+    
+   
+
+
+    /* ********************* */
+
+    .main-5{
+      
+        display: flex;
+        position: absolute;
+        width: 900px;
+        top:950px;
+        margin: 3%;
+        background: linear-gradient(#981e81,rgb(225 173 138));
+    }
+    
+    .station{
+        height:150px;
+        width:150px; 
+    }
+
+    .st1{  
+        background: linear-gradient(yellow,orange);
+        height: 83px;
+        width: 95px;
+        position: absolute;
+        top: 34px;
+        left: 15px;
+        padding: 1px 16px;
+       
+    }
+
+    .st2{
+        background: linear-gradient(#ff9800,#310e66);
+        height: 108px;
+        width: 60px;
+        position: absolute;
+        left: 29px;
+        top: 20px;
+        z-index: 2;
+        padding: 2px 19px;
+    
+    }
+
+    .st3{
+        background: linear-gradient(red,#0b0402,#f33123);
+        height: 74px;
+        width: 44px;
+        position: absolute;
+        left: 40px;
+        top: 36px;
+        z-index: 2;
+        padding: 2px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .love{
+        height:150px;
+        width:150px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       top:40px;
+       position: relative;
+      
+    }
+
+    .love img{
+      
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+        
+    }
+    
+    .chill{
+        height:150px;
+        width:150px;
+        position: relative;
+        top:40px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+    }
+
+    .chill img
+    {
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+    }
+    
+    .rock
+    {
+        height:150px;
+        width:150px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       top:40px;
+       position: relative;
+    }
+
+    .rock img{
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+       
+    }
+    
+    .workout{
+        height:150px;
+        width:150px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       top:40px;
+       position: relative;
+
+    }
+
+
+    .workout img{
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 35px;
+    }
+    .pop{
+        height:150px;
+        width:150px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       top:40px;
+       position: relative;
+    }
+
+
+    .pop img{
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 30px;
+    }
+
+
+    .retro{
+        height:150px;
+        width:150px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       top:40px;
+       position: relative;
+    }
+
+    .retro img{
+        height: 100px;
+        width: 100px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 20px;
+        
+     
+    }
+
+   .h2-im2{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   }
+
+
+   .h2-im2:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im1{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   
+   }
+
+   .h2-im1:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+   .h2-im3{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+ 
+   }
+
+   .h2-im3:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im4{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   
+   }
+
+   .h2-im4:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+
+   .h2-im5{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  
+   }
+
+   .h2-im5:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im6{
+    height:100px;
+    width: 100px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-100px;
+    left:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+
+   }
+
+   .h2-im6:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .fa-circle-play{
+    font-size: 40px;
+    color: white;
+   }
+
+ .stations{
+color: white;
+position: relative;
+left:-5px;
+ }
+
+
+ @media screen and (max-width:950px){
+    .main-5{
+        width: 840px;
+        top:950px;
+    }
+    
+ }
+
+ @media screen and (max-width:890px){
+    .main-5{
+        width: 710px;
+    top:800px
+    }
+
+
+    .love img{
+      
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 50px;
+        
+    }
+    
+  
+
+    .chill img
+    {
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+    }
+    
+ 
+    .rock img{
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 30px;
+       
+    }
+    
+
+
+    .workout img{
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 25px;
+    }
+   
+
+    .pop img{
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 20px;
+    }
+
+
+   
+
+    .retro img{
+     
+        height: 80px;
+        width: 80px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 10px;
+        
+     
+    }
+
+   .h2-im2{
+    height: 80px;
+    width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   }
+
+
+   .h2-im2:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im1{
+    height: 80px;
+    width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   
+   }
+
+   .h2-im1:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+   .h2-im3{
+    height: 80px;
+        width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+ 
+   }
+
+   .h2-im3:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im4{
+    height: 80px;
+    width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 18px;
+   
+   }
+
+   .h2-im4:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+
+   .h2-im5{
+    height: 80px;
+        width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  
+   }
+
+   .h2-im5:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im6{
+    height: 80px;
+    width: 80px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-80px;
+    left:10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+
+   }
+
+   .h2-im6:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+
+ }
+
+ @media screen and (max-width:750px){
+    .main-5{
+        width: 660px;
+    top:710px
+    }
+
+    
+
+
+    .love img{
+      
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 60px;
+        
+    }
+    
+  
+
+    .chill img
+    {
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 50px;
+    }
+    
+ 
+    .rock img{
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+       
+    }
+    
+
+
+    .workout img{
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 35px;
+    }
+   
+
+    .pop img{
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 30px;
+    }
+
+
+   
+
+    .retro img{
+     
+        height: 70px;
+        width: 70px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 20px;
+        
+     
+    }
+
+   .h2-im2{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   }
+
+
+   .h2-im2:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im1{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+   
+   }
+
+   .h2-im1:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+   .h2-im3{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+ 
+   }
+
+   .h2-im3:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im4{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 18px;
+   
+   }
+
+   .h2-im4:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+
+   .h2-im5{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+  
+   }
+
+   .h2-im5:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im6{
+    height: 70px;
+    width: 70px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-70px;
+    left:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+
+   }
+
+   .h2-im6:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+ }
+
+
+ @media screen and (max-width:700px){
+    .main-5{
+        width: 550px;
+    top:710px
+    }
+
+    
+
+
+    .love img{
+      
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 70px;
+        
+    }
+    
+  
+
+    .chill img
+    {
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 55px;
+    }
+    
+ 
+    .rock img{
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 40px;
+       
+    }
+    
+
+
+    .workout img{
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 25px;
+    }
+   
+
+    .pop img{
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 15px;
+    }
+
+
+   
+
+    .retro img{
+     
+        height: 60px;
+        width: 60px;
+        border-radius: 120px;
+        position: relative;
+        text-align: center;
+        left: 0px;
+        
+     
+    }
+
+   .h2-im2{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:55px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+   }
+
+
+   .h2-im2:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im1{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:70px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+   }
+
+   .h2-im1:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+   .h2-im3{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+   }
+
+   .h2-im3:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im4{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 15px;
+   }
+
+   .h2-im4:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+
+   .h2-im5{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+   }
+
+   .h2-im5:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+   .h2-im6{
+    height: 60px;
+    width: 60px;
+    background-color:none;
+    position: relative;
+    border-radius: 120px;
+    top:-60px;
+    left:0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+   }
+
+   .h2-im6:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+   }
+
+
+ }
+
+
+ @media screen and (max-width:580px) {
+   .main-5{
+    width: 450px;
+    top:650px;
+    height:100px;
+    
+   }
+
+   .st1{
+    height: 55px;
+    width: 56px;
+    position: absolute;
+    top:20px;
+    left: 10px;
+    padding: 1px 16px;
+   }
+
+   .st2{
+    height: 88px;
+    width: 27px;
+    position: absolute;
+    left: 22px;
+    top: 5px;
+    z-index: 2;
+    padding: 2px 19px;
+   }
+   .st3{
+    height:54px;
+    width: 24px;
+    position: absolute;
+    left: 28px;
+    top: 20px;
+    z-index: 2;
+    padding: 2px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .fa-circle-play{
+    font-size: 25px;
+   }
+
+   .stations{
+    font-size: small;
+    left:-10px;
+   }
+
+   
+   .love img{
+      
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left:45px;
+    top:-40px;
+    
+}
+
+
+
+.chill img
+{
+       
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left: 40px;
+    top:-40px;
+}
+
+
+.rock img{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left: 35px;
+    top:-40px;
+}
+
+
+
+.workout img{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left: 25px;
+    top:-40px;
+}
+
+
+.pop img{
+      
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left: 20px;
+    top:-40px;
+}
+
+
+
+
+.retro img{
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    position: relative;
+    text-align: center;
+    left: 10px;
+    top:-40px;
+ 
+}
+
+.h2-im2{
+   
+    height: 50px;
+    width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:40px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 15px;
+}
+
+
+.h2-im2:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+.h2-im1{
+   
+    height: 50px;
+    width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:45px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 15px;
+}
+
+.h2-im1:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+
+.h2-im3{
+   
+    height: 50px;
+    width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:35px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 15px;
+}
+
+.h2-im3:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+.h2-im4{
+   
+    height: 50px;
+    width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:25px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 10px;
+}
+
+.h2-im4:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+
+
+.h2-im5{ 
+height: 50px;
+width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 15px;
+}
+
+.h2-im5:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+.h2-im6{
+   
+    height: 50px;
+    width: 50px;
+background-color:none;
+position: relative;
+border-radius: 120px;
+top:-90px;
+left:10px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:white;
+font-size: 15px;
+}
+
+.h2-im6:hover{
+background-color: rgba(0,0,0,0.6);
+cursor: pointer;
+}
+
+
+    }
+
+
+    @media screen and (max-width:450px) {
+        .main-5{
+        top:550px;
+        }
+
+    }

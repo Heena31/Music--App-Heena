@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music-App-Assignment</title>
+
+
+  <!-- Adding link of google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+
+
+
+ <!-- Addding font for icon -->
+ <link href="./fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+ <link href="./fontawesome-free-6.1.1-web/css/solid.css" rel="stylesheet">
+ <link href="./fontawesome-free-6.1.1-web/css/brands.css" rel="stylesheet">
+ <link href="./fontawesome-free-6.1.1-web/css/regular.css" rel="stylesheet">
+ <link href="./fontawesome-free-6.1.1-web/js/all.js" rel="stylesheet">
+
+  <!-- Add icon in Title bar -->
+  <link rel="icon" href="./Images/music_logo.png">
+
+
+  <!-- Adding css file link -->
+  <link rel="stylesheet"  type="text/css" href="./index.css">
+  <link rel="stylesheet" href="/queue.css">
+  <link rel="stylesheet" href="/latest.css">
+  <link rel="stylesheet" href="/artist.css">
+  <link rel="stylesheet" href="/maintheme.css">
+  <link rel="stylesheet" href="./last.css">
+  <link rel="stylesheet" href="./down.css">
+
+</head>
+<body>
+
+
+
+<!-- Creating a Navbar -->
+  <nav class="navbar background">
+  
+  <ul class="nav-left">
+  <div class="logo"><img src="./Images/music_logo.png"></div> 
+  <a class="head">Music <br>Studio</a>
+  <li><a>Favourites</a></li>
+  </ul>
+ 
+ 
+
+   
+  <div class="right-nav">
+
+  <div class="user"><img src="./Images/user.png" alt="user" class="user-img"></div>
+  <span class="fa-regular fa-bell"></span> 
+  <span class="fa-solid fa-microphone"></span>
+  <input type="search" name="search" placeholder="Search" class="search">
+  <span class="fa-solid fa-search"></span>
+  </div>
+
+</nav>
+
+<br>
+<br>
+<br>
+
+<!-- Creating Section1 casrsoul -->
+
+  <section class="section1">
+    <div id="main-div">
+	<div id="main-div1"></div>
+    <div id="main-div2"></div>
+    <div id="main-div3"></div>
+    
+    </div>
+
+</section>
+
+<!-- Creating a Queue Section as a section2-->
+<section class="section2">
+  <div class="que-head"><p>My Playlist</p></div>
+  <div class="queue-link"><a href="#que-div" class="que-link">Queue &nbsp;<i class="fa-solid fa-circle-chevron-down"></i></a></div>
+  <div id="que-div">
+      <a href=""><i class="fa-solid fa-play" id="fp"></i>&nbsp;Play Next</a><hr>
+      <a href=""><i class="fa-regular fa-bookmark"></i>&nbsp;Favourite Song</a><hr>
+      <a href=""><i class="fa-solid fa-circle-xmark"></i>&nbsp;Close</a>
+  </div>
+  <div class="que-list">
+  <div class="d1"><span class="no">01</span><div class="sd1"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Bamb Aagya<br><span class="au-name">By Jasmine Sandlas</span></div><div class="heart1"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d2"><span class="no">02</span><div class="sd2"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Excuses<br><span class="au-name">By AP Dhillon</span></div><div class="heart2"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d3"><span class="no">03</span><div class="sd3"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Let me down Slowly<br> <span class="au-name">By Alec Benjamin</span></div><div class="heart3"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d4"><span class="no">04</span><div class="sd4"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Lenitating<br><span class="au-name">By Dua Lipa</span></div><div class="heart4"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d5"><span class="no">05</span><div class="sd5"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">No Lie<br><span class="au-name">By Dua Lipa</span></div><div class="heart5"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d6"><span class="no">06</span><div class="sd6"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Heat Waves<br><span class="au-name"> Glass Animal</span></div><div class="heart6"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d7"><span class="no">07</span><div class="sd7"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Lut Gaye<br><span class="au-name"> Jubin Nautiyal</span></div><div class="heart7"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d8"><span class="no">08</span><div class="sd8"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Nadiyon Paar<br><span class="au-name">By Roohi</span></div><div class="heart8"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d9"><span class="no">09</span><div class="sd9"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Chaka Chak<br><span class="au-name"> By Shreya Ghosal</span></div><div class="heart9"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d10"><span class="no">10</span><div class="sd10"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Mehbuba<br><span class="au-name">By Ananya Bhat</span></div><div class="heart10"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d11"><span class="no">11</span><div class="sd11"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Befikre<br><span class="au-name">By Vishal and Shekhar</span></div><div class="heart11"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d12"><span class="no">12</span><div class="sd12"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Saunkne Saunkne<br><span class="au-name"> By Ms. Pooja </span> </div><div class="heart12"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d13"><span class="no">13</span><div class="sd13"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Love Story<br><span class="au-name">By Taylor Swift</span></div><div class="heart13"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d14"><span class="no">14</span><div class="sd14"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Insane<br><span class="au-name">By AP Dhillon</span></div><div class="heart14"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d15"><span class="no">15</span><div class="sd15"></div><a href="./second.html"><div class="div-shadow"></div><div class="content1">Brown Munde<br><span class="au-name"> AP Dhillon</span></div><div class="heart15"><i class="fa-regular fa-heart"></i></div></a>
+  </div>
+
+ 
+  </section>
+  <button onclick="window.location.href='#que-list1'" class="button">More</button>
+
+<div id="que-list1">
+  <div class="d1"><span class="no">01</span><div class="sd1"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Bamb Aagya<br><span class="au-name">By Jasmine Sandlas</span></div><div class="heart1"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d2"><span class="no">02</span><div class="sd2"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Excuses<br><span class="au-name">By AP Dhillon</span></div><div class="heart2"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d3"><span class="no">03</span><div class="sd3"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Let me down Slowly<br> <span class="au-name">By Alec Benjamin</span></div><div class="heart3"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d4"><span class="no">04</span><div class="sd4"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Lenitating<br><span class="au-name">By Dua Lipa</span></div><div class="heart4"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d5"><span class="no">05</span><div class="sd5"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">No Lie<br><span class="au-name">By Dua Lipa</span></div><div class="heart5"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d6"><span class="no">06</span><div class="sd6"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Heat Waves<br><span class="au-name"> Glass Animal</span></div><div class="heart6"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d7"><span class="no">07</span><div class="sd7"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">Lut Gaye<br><span class="au-name"> Jubin Nautiyal</span></div><div class="heart7"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d8"><span class="no">08</span><div class="sd8"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">Nadiyon Paar<br><span class="au-name">By Roohi</span></div><div class="heart8"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d9"><span class="no">09</span><div class="sd9"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">Chaka Chak<br><span class="au-name"> By Shreya Ghosal</span></div><div class="heart9"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d10"><span class="no">10</span><div class="sd10"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">Mehbuba<br><span class="au-name">By Ananya Bhat</span></div><div class="heart10"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d11"><span class="no">11</span><div class="sd11"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Befikre<br><span class="au-name">By Vishal and Shekhar</span></div><div class="heart11"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d12"><span class="no">12</span><div class="sd12"></div><a href="./second.html "><div class="div-shadow"></div></a><div class="content1">Saunkne Saunkne<br><span class="au-name"> By Ms. Pooja </span> </div><div class="heart12"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d13"><span class="no">13</span><div class="sd13"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Love Story<br><span class="au-name">By Taylor Swift</span></div><div class="heart13"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d14"><span class="no">14</span><div class="sd14"></div><a href="./second.html"><div class="div-shadow"></div></a><div class="content1">Insane<br><span class="au-name">By AP Dhillon</span></div><div class="heart14"><i class="fa-regular fa-heart"></i></div></div>
+  <div class="d15"><span class="no">15</span><div class="sd15"></div><a href="./second.html"><div class="div-shadow"></div><div class="content1">Brown Munde<br><span class="au-name"> AP Dhillon</span></div><div class="heart15"><i class="fa-regular fa-heart"></i></div></a></div>
+</div>
+
+
+<!-- Creating a song of latest Release Section as a Section3 -->
+
+<section class="section3">
+  <p class="l">LATEST SONGS</p>
+  <div class="latest1">
+  <div class="l1"><div class="l1-subdiv"></div><a href="#down"><div class="l1-sd"></div></a><div class="l1-head">Bolo4<br>28-Sept-2017</div><a href="#list"><div><i class="fa-solid fa-ellipsis"></i></div></a>
+  
+  
+  <div class="ex">
+  <div id="list" class="la">
+  <a href="#down" class="list1">&nbsp;<i class="fa-solid fa-play"></i> Play Now</a><hr>
+  <a href="" class="list1">&nbsp;<i class="fa-solid fa-plus"></i>Add to Queue</q></a><hr>
+  <a href="" class="list1">&nbsp;<i class="fa-solid fa-star"></i> Add to Favourite</a><hr>
+  <a href="" class="list1">&nbsp;<i class="fa-solid fa-circle-info"></i> Get Info</a>
+  
+  </div>
+  </div>
+  
+  </div>
+  <div class="l2"><div class="l2-subdiv"></div><a href="#down"><div class="l2-sd"></div></a><div class="l2-head">Dynamite<br>20-Sept-2021</div><a href="#lista"><div><i class="fa-solid fa-ellipsis"></i></div></a>
+  <div id="lista" class="lb">
+      <a href="#down" class="list1">&nbsp;<i class="fa-solid fa-play"></i> Play Now</a><hr>
+      <a href="" class="list1">&nbsp;<i class="fa-solid fa-plus"></i>Add to Queue</q></a><hr>
+      <a href="" class="list1">&nbsp;<i class="fa-solid fa-star"></i> Add to Favourite</a><hr>
+      <a href="" class="list1">&nbsp;<i class="fa-solid fa-circle-info"></i> Get Info</a>
+      
+      </div>
+  </div>
+  </div>
+  
+  
+  <div class="latest2">
+      <div class="l3"><div class="l3-subdiv"></div><a href="#down"><div class="l3-sd"></div></a><div class="l1-head">Whistle<br>15-Sept-2015</div><a href="#listb"><div><i class="fa-solid fa-ellipsis"></i></div></a>
+      <div id="listb" class="lc">
+          <a href="#down" class="list1">&nbsp;<i class="fa-solid fa-play"></i> Play Now</a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-plus"></i>Add to Queue</q></a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-star"></i> Add to Favourite</a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-circle-info"></i> Get Info</a>
+          
+          </div>
+  
+  
+  </div>
+      <div class="l4"><div class="l4-subdiv"></div><a href="#down"><div class="l4-sd"></div></a><div class="l2-head">Love Story<br>12-Jan-2014</div><a href="#listc"><div><i class="fa-solid fa-ellipsis"></i></div></a>
+      <div id="listc" class="ld">
+          <a href="#down" class="list1">&nbsp;<i class="fa-solid fa-play"></i> Play Now</a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-plus"></i>Add to Queue</q></a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-star"></i> Add to Favourite</a><hr>
+          <a href="" class="list1">&nbsp;<i class="fa-solid fa-circle-info"></i> Get Info</a>
+          
+          </div>
+  
+  </div>
+  </div>
+</section>
+
+
+
+
+<!-- Creating a section of Popular Artist as Section4 -->
+<!-- Creating a popular artist section -->
+
+<section class="section4">
+  <p class="sec4_head">POPULAR &nbsp; ARTISTS</p>   
+ <div class="maindiv-3">
+ 
+     <div class="s3-1"><div id="sub-div1"><i class="fa-solid fa-play" id="ps5" ></i></div></div><p class="sing_name1">Ap Dhillon</p>
+     <div class="s3-2">
+     <div id="sub-div2"><i class="fa-solid fa-play" id="p_1s5" ></i></div></div><p class="sing_name2">Arijit Singh</p>
+ 
+ 
+     <div class="s3-3"> <div id="sub-div3"><i class="fa-solid fa-play" id="p_2s5" ></i></div></div><p class="sing_name3">Atif Aslam</p>
+ 
+ 
+     <div class="s3-4"> <div id="sub-div4"><i class="fa-solid fa-play" id="p_3s5" ></i></div></div><p class="sing_name4">Justin Bieber</p>
+ 
+ 
+     <div class="s3-5"> <div id="sub-div5"><i class="fa-solid fa-play" id="p_4s5" ></i></div></div><p class="sing_name5">Neha Kakkar</p>
+ 
+ 
+     <div class="s3-6"> <div id="sub-div6"><i class="fa-solid fa-play" id="p_5s5" ></i></div></div><p class="sing_name6">Billie Eilish</p>
+ </div>
+ </section>
+  
+<!-- Creating a First theme as  section 5 -->
+  <section class="section5">
+    <div class="main-5">
+    <div class="station"><div class="st1"></div><div class="st2"></div><div class="st3"><i class="fa-regular fa-circle-play"></i><h4 class="stations">Stations</h4></div></div>
+    <div class="love"><img src="./themeone/love.jpg" alt=""><div class="sublove"><h2 class="h2-im1">Love</h2></div></div>
+    <div class="chill"><img src="./themeone/chill.jpg" alt=""><div class="subchill"><h2 class="h2-im2">Chill</h2></div></div>
+    <div class="rock"><img src="./themeone/rock.jpg" alt=""><div class="subrock"><h2 class="h2-im3">Rock</h2></div></div>
+    <div class="workout"><img src="./themeone/workout.jpg" alt=""><div class="subworkout"><h2 class="h2-im4">Workout</h2></div></div>
+    <div class="pop"><img src="./themeone/pop.jpg" alt=""><div class="subpop"><h2 class="h2-im5">Pop</h2></div></div>
+    <div class="retro"><img src="./themeone/retro.jpg" alt=""><div class="subretro"><h2 class="h2-im6">Retro</h2></div></div>
+    </div>
+
+  </section>
+  <!-- Creating a second Music theme as section6 -->
+  
+  <section class="section6">
+  
+  <div class="sc6-main-div">
+      <div class="sc6-d1"><img src="./themetwo/party.jpg"><h1>Party</h1></div>
+      <div class="sc6-d2"><img src="./themetwo/electronic.jpg"><h1>Electronics</h1></div>
+      <div class="sc6-d3"><img src="./themetwo/road.jpg"><h1>Road Trip</h1></div>
+  </div>
+  
+  
+  </section>
+  
+  
+  
+  <!-- Hindi Popular as Section 7 -->
+  
+  
+  <section class="section7">
+      <h1 class="sc7-head">Hindi Latest</h1>
+  <div class="sc7-main">
+     
+  
+  <div class="sc7-d1"><p>Dil Galti Kar <br>Aug 11, 2021</p></div>
+  <div class="sc7-d2"><p>Hare Ram<br> 25 Mar, 2022</p></div>
+  <div class="sc7-d3"><p>Kalla Sohna Nai <br> 26 Sept, 2021</p></div>
+  <div class="sc7-d4"><p>Pheli Dafa<br>27 Jan, 2021</p></div>
+  <div class="sc7-d5"><p>Teri Aankhon <br> 19 Oct, 2020</p></div>
+  <div class="sc7-d6"><p>Shiddat<br>31 July, 2021</p></div>
+  </div>
+  
+  
+  
+  
+  </section>
+  
+  
+  <!-- Latest English as Section 8 -->
+  
+  
+  <section class="section8">
+      <h1 class="sc8-head">English Latest</h1>
+  <div class="sc8-main">
+     
+  
+  <div class="sc8-d1"><p>Glass Animals<br>Aug 11, 2021</p></div>
+  <div class="sc8-d2"><p>Blue Moon<br> 25 Mar, 2022</p></div>
+  <div class="sc8-d3"><p>Intentions <br> 26 Sept, 2021</p></div>
+  <div class="sc8-d4"><p>Dynamite<br>27 Jan, 2021</p></div>
+  <div class="sc8-d5"><p>Don't Let Me<br> 19 Oct, 2020</p></div>
+  <div class="sc8-d6"><p>Levitating<br>31 July, 2021</p></div>
+  
+  
+  </section>
+
+  <!-- Div  -->
+
+  <section class="sec-9">
+    
+    <div class="down" id="down">
+      <div class="down1">
+      <img src="./Englishimage/intenstions.jpg">
+      <p class="down1-h">Intentions<br> By Justin Bieber</p>
+      <div class="ic"><i class="fa-regular fa-heart hear" ></i>&ensp;<i class="fa-solid fa-ban"></i></div>
+      </div>
+
+      <div class="down2">
+        
+      <div class="ic-1">
+        
+        <i class="fa-solid fa-shuffle"></i>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <i class="fa-solid fa-backward-step"></i>&ensp;&ensp;&ensp;&ensp;
+        <i class="fa-regular fa-circle-pause"></i>&ensp;&ensp;&ensp;&ensp;
+        <i class="fa-solid fa-forward-step"></i>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <i class="fa-solid fa-repeat"></i>
+      
+      </div>
+      <div class="range1">
+       <p class="time">2.36</p>&nbsp; <input type="range" name="range" class="range">&nbsp;<p class="time">4.44</p>
+      </div>
+      </div>
+      
+      <div class="down5">
+        <i class="fa-solid fa-sliders"></i>&ensp;&ensp;
+       <img src="./Images/computer.png" alt="icon" class="comp">&ensp;&ensp;
+       <input type="range" name="range" class="range2">&ensp;&ensp;
+       <i class="fa-solid fa-volume-high"></i>
+      </div>
+      
+    </div>
+
+  </section>
+
+
+</body>
+</html>

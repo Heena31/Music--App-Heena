@@ -1,0 +1,27 @@
+.list32{
+      float: right;
+      position: absolute;
+      top:440px;
+      right:6%;
+      overflow: scroll;
+      height: 315px;
+     
+}
+.list32::-webkit-scrollbar{
+    display: none;
+}
+
+.list-head1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+@media screen and (max-width:1350px)  {
+    .list32{
+        display: none;
+    }
+     
+ }

@@ -1,0 +1,448 @@
+.que-head{
+    display: inline-block;
+    color: aliceblue;
+    z-index: -1;
+    height: 20px;
+    width: 200px;
+    position: fixed;
+    right: 20%;
+    top:13%;
+    font-size: x-large;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.que-link{
+    color: aliceblue;
+    z-index: 1;
+    height: 20px;
+    width: 120px;
+    position:fixed;
+    right: 5%;
+    top: 17%;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#que-div{
+    height:0%;
+    width:0%;
+    overflow:hidden;
+}
+
+#que-div:target{
+    display: inline-block;
+    color: aliceblue;
+    height: 71px;
+    width: 146px;
+    z-index: 1;
+    position: fixed;
+    right: 7%;
+    top: 20%;
+    font-size: large;
+    font-family: "Paytone One", sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+
+
+#que-div a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.que-list{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    position: fixed;
+    top:22%;
+    right:7%;
+}
+
+.que-list::-webkit-scrollbar{
+    display: none;
+}
+
+.sd1{
+    height: 70px;
+    width: 70px;
+   background-image: url(./Images/bamb.jpg);
+   background-size: cover;
+   display: inline-block;
+   position: relative;
+   margin-top: 2%;
+   
+}
+
+
+
+
+.sd2{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/excuses.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd3{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img4.jpg);
+   background-size: cover;
+   display: inline-block;
+}
+.sd4{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img5.jpg);
+   background-size: cover;
+   display: inline-block;
+}
+.sd5{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img6.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd6{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img7.jpg);
+   background-size: cover;
+   display: inline-block;
+}
+.sd7{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img8.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd8{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img9.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd9{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img10.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd10{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img11.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.sd11{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img12.jpg);
+   background-size: cover;
+   display: inline-block;
+}
+.sd12{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img13.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd13{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/img14.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd14{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/insane.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+.sd15{
+    height: 70px;
+    width: 70px;
+    background-image: url(./Images/brown-M.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.div-shadow{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    left:-70px;
+    cursor: pointer;
+}
+
+.div-shadow:hover{
+    background-color:transparent;
+    background-image: url(./Images/play1.png);
+    background-size: cover;
+   
+}
+
+.content1 {
+     position: relative;
+    top:-20%;
+    left:-10%;
+    font-size:large;
+    display: inline-block;
+    color: aliceblue;
+}
+
+@media screen and (max-width:1550px) {
+   .que-list{
+       height: 600px;
+       width: 380px;
+       position: fixed;
+       top:22%;
+       right:2%;
+   }
+    
+   .que-head{
+    right: 14%;
+   }
+
+   .que-link{
+    right: 1%;
+   }
+ #que-div:target{
+     right:1%;
+ }
+}
+
+
+
+ .button{
+     font-size: x-large;
+     width: 100px;
+     color: white;
+     background: linear-gradient(rgb(252 12 59), #9b1f81);
+     cursor: pointer;
+     cursor: pointer;
+     border: 2px solid white;
+     border-radius: 12px;;
+     position: absolute;
+     top: 20%;
+     right:0%;
+     position: fixed;
+     display: none;
+   
+    }
+
+
+
+  
+
+
+    @media screen and (max-width:1350px) {
+        .button{
+            display: block;
+            z-index: 26;
+        }
+    }
+
+    #que-list1{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+    
+
+    #que-list1:target{
+        height: 380px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        position:fixed;
+        top:22%;
+      
+        right:1%;
+        background: linear-gradient(#69237b,#c27a24,rgb(155 31 129));        z-index: 5;
+    }
+    
+    #que-list1::-webkit-scrollbar{
+        display: none;
+    }
+
+    .content2 {
+        position: relative;
+       top:-20%;
+       left:-10%;
+       font-size:large;
+       display: inline-block;
+       color: rgb(255, 255, 255);
+   }
+      
+.button {
+    top:110px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Paytone One', sans-serif;
+   
+}
+
+@media screen and (max-width:1350px) {
+    .que-list{
+       display: none;
+    }
+     
+    .que-head{
+        display: none;
+    }
+ 
+    .que-link{
+        display: none;
+    }
+  
+
+ }
+ .fa-heart{
+    color: white;
+    font-size: large; 
+}
+
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+.heart1{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+   left:28px;
+}
+
+.heart2{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+  left:62px;
+}
+.heart3{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+ left:1px;
+}
+
+.heart4{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:73px;
+}
+
+.heart5{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:72px;
+}
+
+.heart6{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:64px;
+}
+
+.heart7{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:64px;
+}
+
+.heart8{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:55px;
+}
+.heart9{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left: 46px;
+}
+.heart10{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:59px;
+}
+.heart11{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left: 22px;
+}
+.heart12{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left: 33px;
+}
+
+.heart13{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left:64px;
+}
+
+.heart14{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left: 73px;
+}
+
+.heart15{
+    display: inline-block;
+    position: relative;
+    top:-30%;
+    left: 58px;
+}
+
+@media screen and (max-width:1200px) {
+    .button{
+        width: 80px;
+        font-size: large;
+        z-index: 1;
+    }
+    
+}
+
+.au-name{
+    font-size: 15px;
+}
+
+.no{
+    color:white;
+    padding: 1px 12px;
+    position: relative;
+    top: -30px;
+}
